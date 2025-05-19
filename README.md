@@ -37,6 +37,7 @@ Follow these steps to install Wuthery Localizator:
 - **Disable Tpsafe** - Completely disables the anti-cheat. This is the most effective way to avoid getting banned, but you will get kicked every 10-15 minutes because the game server will not receive any anti-cheat data.
 - **Disable censorship** - Disables censorship when you look at your character from below.
 - **Localization DB URL** - URL to the localization database. Defaults to Ukrainian language (as this localizator was originally made for it).
+- **Command Line Arguments** - Additional command line arguments to pass to the game. To enable older version of DirectX (v11), use these options: `Client -dx11 -DisableModule=streamline`. If you need to force v12, use `Client -dx12`.
 
 #### Recommended settings
 
@@ -102,6 +103,10 @@ pnpm serve
 ```
 
 ## Changelog
+
+### 0.4.0
+
+- Added option to configure command line arguments for the game. Allows people to use different versions of DirectX.
 
 ### 0.3.1
 
