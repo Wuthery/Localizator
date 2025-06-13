@@ -104,6 +104,11 @@ pnpm serve
 
 ## Changelog
 
+### 0.5.0
+
+- Improved version detection algorithm.
+- Game version 2.4 support.
+
 ### 0.4.0
 
 - Added option to configure command line arguments for the game. Allows people to use different versions of DirectX.
