@@ -104,6 +104,10 @@ pnpm serve
 
 ## Changelog
 
+### 0.6.0
+
+- Game version 2.4.1 support.
+
 ### 0.5.0
 
 - Improved version detection algorithm.
