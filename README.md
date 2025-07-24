@@ -104,6 +104,10 @@ pnpm serve
 
 ## Changelog
 
+### 0.7.0
+
+- Game version 2.5.0 support.
+
 ### 0.6.0
 
 - Game version 2.4.1 support.
